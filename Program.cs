@@ -13,7 +13,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     );
 
 
-// Dynamically configure Kestrel to bind to the first non-loopback IPv4 address on port 1010
+// Dynamically configure Kestrel to bind to IPv4 address on port 1010
 //builder.WebHost.ConfigureKestrel(serverOptions =>
 //{
 //    var ipv4Address = Dns.GetHostEntry(Dns.GetHostName())
